@@ -4,6 +4,7 @@ A bold, game-menu-style developer portfolio inspired by the **Persona 5** UI: re
 
 Built by **Marouane EL WALI**, Full Stack Developer (Laravel, Symfony, React, Node.js, MCP).
 
+> 📸 Add a screenshot here: `![Preview](./docs/preview.png)`
 
 ## ✨ Features
 
@@ -12,6 +13,9 @@ Built by **Marouane EL WALI**, Full Stack Developer (Laravel, Symfony, React, No
 - **About**: profile and "character stats" panel
 - **Experience log**: timeline styled as mission archives
 - **Skills matrix**: inventory-style tabs with animated level bars
+- **Projects ("Treasures")**: expandable cards driven by `data.js`
+- **Calling Card contact form** with live card preview (opens a pre-filled email)
+- **Easter egg**: press `A` for an ALL-OUT ATTACK screen
 - **Contact**: email, phone, LinkedIn and GitHub buttons
 - **Morgana guide**: dialogue box that changes with the section you are viewing
 - **Retro sounds** generated with the Web Audio API (no audio files) and a mute button
@@ -57,6 +61,8 @@ Open the URL printed by Vite (usually `http://localhost:5173`).
 │   │   ├── Skills.jsx
 │   │   ├── Contact.jsx
 │   │   ├── Morgana.jsx   # Contextual dialogue guide
+│   │   ├── Projects.jsx  # Treasures section
+│   │   ├── AllOut.jsx    # Easter egg overlay
 │   │   ├── Hud.jsx       # Scroll progress + mute button
 │   │   ├── Cursor.jsx    # Custom star cursor
 │   │   └── ui.jsx        # Shared Section title + level pips

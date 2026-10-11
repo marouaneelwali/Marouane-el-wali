@@ -7,6 +7,7 @@ const lines = {
   about: 'This is the Thief profile. Laravel, React, AI... a well-rounded build!',
   experience: 'Two missions cleared, and both were clean jobs. Not bad!',
   skills: 'Check the inventory. PHP and AI workflows are maxed out!',
+  projects: 'These are my treasures. Click a card to see the details!',
   contact: "Don't leave without sending a message. Let's work together!",
 }
 
