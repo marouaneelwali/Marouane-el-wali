@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+body { @apply bg-p5black text-white font-body text-lg; }
+@media (pointer: fine) { body, a, button { cursor: none; } }
+
+.halftone { background-image: radial-gradient(#000 1.5px, transparent 1.5px); background-size: 10px 10px; }
+.glitch { position: relative; }
+.glitch::before, .glitch::after { content: attr(data-text); position: absolute; inset: 0; pointer-events: none; opacity: .7; }
+.glitch::before { color: #fff; transform: translate(3px, 0); mix-blend-mode: screen; animation: glitch .3s steps(2) infinite alternate-reverse; clip-path: inset(0 0 55% 0); }
+.glitch::after { color: #000; transform: translate(-3px, 0); animation: glitch .4s steps(2) infinite; clip-path: inset(55% 0 0 0); }
